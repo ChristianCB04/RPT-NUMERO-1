@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="mysecondpage.css">
+</head>
+<body>
+    <h1>My second page with CSS</h1>
+
+    <!-- 3 ways using CSS:
+        1. INLINE: 
+            <h2 style="background-color:blue;">Exemple</h2>
+        2. INTERN:
+            <head>
+                <style>
+                    p { /*Comment: This selector is selecting all p*/
+                        color:green;
+                        font-size:20px;
+                    }
+                    h2, h3, h4 {
+                        background-color:black;
+                        color:white;
+                    }
+                    #idh2 { /*Selecting an ID*/
+                        color:violet;
+                    }
+                    .classh2, .classh3 { /*Selection a class*/
+                        width:50%;
+                        height:50px;
+                    }
+                </style>
+            </head>
+
+        3. EXTERN:
+            "We create a file with extension .css"
+            "We add a link to the <head>:
+                <link rel="stylesheet" href="namefile.css">
+            "
+    -->
+
+    <p id="idp0" class="class0p">Paragraph 0</p>
+    <p id="idp1" class="class1p">Paragraph 1</p>
+    <p class="class0p class2p class3p">Paragraph 2</p>
+    <p class="class1p">Paragraph 3</p>
+    <p class="class2p">Paragraph 4</p>
+    <p class="class3p">Paragraph 5</p>
+    <p class="class0p">Paragraph 6</p>
+    <p class="class1p">Paragraph 7</p>
+    <p class="class2p">Paragraph 8</p>
+    <p class="class3p">Paragraph 9</p>
+
+    
+    <h2>Ex1 - EP HTML</h2>
+    <div id="header">&lt;HEADER&gt;</div> 
+    <div id="nav">&lt;NAV&gt;</div>
+    <div id="section">&lt;SECTION&gt; 
+        <div class="article">&lt;ARTICLE&gt;</div>
+        <div class="article">&lt;ARTICLE&gt;</div>
+        <div class="article">&lt;ARTICLE&gt;</div>
+    </div> 
+    <div id="aside">&lt;ASIDE&gt;</div>
+    <div id="footer">&lt;FOOTER&gt;</div>
+
+    <h2>Box model</h2>
+    <div id="boxmodel" >Example of a box model</div>
+
+    <div>
+        <p><span>C</span>ascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+
+            CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+            
+            Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.[4] </p>
+
+        <a href="https://educaciodigital.cat/">
+            Moodle M4
+        </a>
+    </div>
+</body>
+</html>

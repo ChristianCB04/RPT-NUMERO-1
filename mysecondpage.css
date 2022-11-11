@@ -1,0 +1,95 @@
+#idp0 {
+    border:5px dotted black;
+}
+
+#idp1 {
+    /*border:5px dashed black;*/
+    /*THIS IS THE SAME:*/
+    border-left-width:5px;
+    border-right-width:2px;
+    border-top-width:1px;
+    border-bottom-width:4px;
+    border-top-style:dashed;
+    border-right-style:dotted;
+    border-bottom-style:ridge;
+    border-left-style:groove;
+    border-left-color:yellow;
+    border-right-color:green;
+    border-top-color:yellowgreen;
+    border-bottom-color:greenyellow;
+}
+
+.class0p, .class1p {
+    border-radius: 10px;
+    background-color: aqua;
+    height: 20px;
+    padding: 10px;
+}
+
+.class2p, .class3p {
+    border: 5px solid blue;
+    color:blue;
+    padding: 20px;
+}
+
+
+/*STYLE EX1 - EP HTML*/
+div, h2 {
+    background-color: #dddddd;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    float: left;
+}
+#section, #aside {
+    height: 200px;
+    width: 37.5%;
+} 
+#aside {
+    float: right;
+} 
+.article {
+    width: 80%;
+    border: 1px dashed black;
+}
+
+#footer {
+    clear: both;
+}
+
+
+/*Box model*/
+#boxmodel {
+    padding: 20px 20px 20px 20px; /* 20px*/
+    border: 20px dotted green;
+    margin: 20px 20px 20px 20px; /* 20px*/
+    text-shadow: 3px 3px 3px black;
+}
+
+p {
+    text-indent: 200px;
+}
+
+div p span { /**/
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif, serif;
+}
+
+/*States*/
+a:link {
+    border: 2px dashed red;
+    color: red;
+}
+a:visited {
+    border: 2px dashed green;
+    color: green;
+}
+*:hover, a:hover {
+    border: 2px dashed blue;
+    color: blue;
+}
+a:active {
+    border: 2px dashed orange;
+    color: orange;
+}
